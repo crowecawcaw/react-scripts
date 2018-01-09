@@ -230,7 +230,7 @@ module.exports = {
                         ]
                       }
                     },
-                    'sass-loader'
+                    {loader: require.resolve('sass-loader')}
                   ]
                 },
                 extractTextPluginOptions
